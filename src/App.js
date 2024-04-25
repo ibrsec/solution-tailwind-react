@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home.jsx";
 import Product from "./pages/Product.jsx";
 import Blog from "./pages/Blog.jsx";
-import Pricing from "./pages/Pricing.jsx";
+import Footer from "./components/Footer.jsx";
 import ProductDetail from "./pages/ProductDetail.jsx";
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
         <Route path="/product-detail" element={<ProductDetail />} />
  
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

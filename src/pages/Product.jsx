@@ -6,7 +6,7 @@ import { Link  } from "react-router-dom";
 
 const Product = () => {
   return (
-    <section className="bg-[#FFE7CE] min-h-[100vh] h-auto">
+    <section className="bg-[#FFE7CE]   h-auto pb-24">
       <div className="top-container py-12">
         <div className="text-center">
           <h2 className="text-3xl lg:text-5xl font-bold tracking-wide mb-5 ">

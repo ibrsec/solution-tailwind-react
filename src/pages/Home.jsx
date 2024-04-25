@@ -6,7 +6,7 @@ const Home = () => {
     background: `url(${product_bg})`,
   };
   return (
-    <section className=" bg-[#F8FDCF]  min-h-[100vh] h-auto">
+    <section className=" bg-[#F8FDCF]  h-auto pb-24">
       <div className="top-container flex    flex-col-reverse md:flex-row">
         <div className="basis-10/12 md:basis-1/2  h-100 flex flex-col pt-5 md:pt-28 gap-14 pb-16 md:pb-1">
           <h6 className="tracking-wide text-md lg:text-lg">
@@ -22,7 +22,7 @@ const Home = () => {
           <form className="w-96 lg:w-10/12   flex align-items-center justify-between bg-white rounded-lg py-1 lg:py-2 pr-3 pl-5">
             <input
               type="email"
-              className=" bg-transparent focus:outline-none w-100 lg:w-80 pt-2 peer"
+              className=" bg-transparent focus:outline-none w-[100%] pt-2 peer"
               placeholder="Register using email adress"
             />
           <p className="text-red-300 text-xs text-nowrap absolute  invisible peer-invalid:visible">Invalid Email!  </p>

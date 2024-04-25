@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const ProductDetail = () => {
   return (
-    <section className="bg-purple-200  min-h-[100vh] h-auto">
+    <section className="bg-purple-200    h-auto pb-24">
       
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 top-container py-10 ">
 
